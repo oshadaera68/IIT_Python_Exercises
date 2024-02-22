@@ -2,9 +2,9 @@ coursework_marks = int(input("Enter Coursework marks: "))
 mid_exam_marks = int(input("Enter Mid term exam marks: "))
 final_exam_marks = float(input("Enter the final exam score: "))
 
-weighted_coursework = coursework_score * 0.4
-weighted_midterm = midterm_score * 0.25
-weighted_final_exam = final_exam_score * 0.35
+weighted_coursework = coursework_marks * 0.4
+weighted_midterm = mid_exam_marks * 0.25
+weighted_final_exam = final_exam_marks * 0.35
 
 final_grade = weighted_coursework + weighted_midterm + weighted_final_exam
 if final_grade >= 70:
